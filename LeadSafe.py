@@ -5,7 +5,7 @@ points_ahead_int = int(points_str)
 # 2. Subtract Three
 lead_calculation_float = float(points_ahead_int - 3)
 
-# 3, Add a half-point if the team that is ahead has the ball and subtract a half-point if the other team has the ball
+# 3. Add a half-point if the team that is ahead has the ball and subtract a half-point if the other team has the ball
 has_ball_str = input("Does the lead team have the ball (Yes or No): ")
 
 if has_ball_str == "Yes":
