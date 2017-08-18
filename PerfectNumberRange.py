@@ -3,7 +3,7 @@
 top_num_str = input("What is the upper number for the range:")
 top_num = int(top_num_str)
 number = 2
-while number <= top_num:
+for number in range(top_num + 1):
     # sum the divisors of number
     divisor = 1
     sum_of_divisors = 0
@@ -18,4 +18,3 @@ while number <= top_num:
         print(number, "is abundant")
     else:
         print(number, "is deficient")
-    number += 1
